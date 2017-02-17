@@ -7,6 +7,7 @@ Created on Feb 16, 2017
 class Calculator(object):
     
     ''' Added Static Method '''
-    @staticmethod
+    @classmethod
     def add(self, x, y):
          return x+y
+    
